@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Afterclass</title>
+</head>
+
+<body>
+    <h1>Printing a random set of numbers</h1>
+    <script>
+        var i = 0
+        let num = null
+        var text = ""
+        while (i < 10) {
+            let num = Math.random() * 100
+            text += "Number " + (i + 1) + " is: " + num + "<br>"
+            i++
+        }
+        document.write(text)
+    </script>
+</body>
+
+</html>
